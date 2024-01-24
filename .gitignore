@@ -1,0 +1,50 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Development
+db.sqlite3
+media/
+
+# Dependency management
+node_modules/
+yarn-error.log
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore local development settings
+.settings/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Ignore Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+
+
